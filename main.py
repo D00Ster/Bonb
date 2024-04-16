@@ -10,6 +10,7 @@ temp = 1
 
 while True:
     a = keyboard.read_key()
+    print(a)
     if a == solution_1[temp] and temp < len(solution_1) - 1:
         temp += 1
         print(str(temp) + " is correct")
